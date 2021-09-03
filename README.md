@@ -9,16 +9,25 @@ Nuestro objetivo con el PIA que realizaremos, es mejorar y/o arreglar el sistema
 Entidades: Las entidades que componen el diagrama son: Menu, Jefe, Empleado y Cliente
 
 Atributos: Los atributos de cada una de ellas son: 
+
 Menu: Jefe(), Empleado() Cliente(), Nuevo() y Salir()
+
 Jefe: VerProducto(), Agregar(), Quitar(), ConFab() y Menu()
+
 Empleado: VerProducto(), Venta() y Menu()
+
 Cliente: VerProducto(), Comprar() y Menu()
 
 Funcionalidades:
+
 ID: Sirve para obtener los distintos usuarios (Tanto de jefe, empleado y cliente)
+
 ConFab: Sirve para encontrar los fabricantes/proveedores de productos
+
 FechaCad: Sirve para obtener la fecha de caducidad del producto
+
 Merma: Sirve para dar de baja productos del inventario de la tienda
+
 
 Diagrama UML:
 
